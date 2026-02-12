@@ -1,4 +1,4 @@
-📚 Student Management System (Flutter + Node.js + MySQL)
+## 📚 Student Management System (Flutter + Node.js + MySQL)
 
 A full-stack CRUD application built using Flutter (Frontend), Node.js + Express (Backend), and MySQL (Database).
 
@@ -6,43 +6,28 @@ This project demonstrates complete Create, Read, Update, and Delete (CRUD) opera
 
 🚀 Tech Stack
 🔹 Frontend
-
-Flutter
-
-HTTP package
-
-Dart
+   Flutter
+   HTTP package
+   Dart
 
 🔹 Backend
-
-Node.js
-
-Express.js
-
-MySQL
-
-CORS
-
-Nodemon
+   Node.js
+  Express.js
+  MySQL
+  CORS
+  Nodemon
 
 🔹 Database
-
-MySQL
+   MySQL
 
 📌 Features
 
 ✅ Create Student
-
 ✅ Read All Students
-
 ✅ Update Student by ID
-
 ✅ Delete Student by ID
-
 ✅ RESTful API
-
 ✅ JSON-based communication
-
 ✅ Full frontend-backend integration
 
 🏗️ Project Architecture
@@ -72,10 +57,15 @@ Create table:
 USE crud;
 
 CREATE TABLE student (
+
   id INT AUTO_INCREMENT PRIMARY KEY,
+  
   name VARCHAR(100),
+  
   email VARCHAR(100),
+  
   password VARCHAR(100)
+  
 );
 
 4️⃣ Start Backend Server
@@ -88,28 +78,33 @@ http://localhost:8081
 
 📡 API Endpoints
 🔹 Get All Students
-GET /students
+   GET /students
 
 🔹 Create Student
-POST /students
+   POST /students
 
 
 Body:
 
 {
   "name": "Ayush",
+  
   "email": "ayush@gmail.com",
+  
   "password": "1234"
+  
 }
 
 🔹 Update Student
-PUT /students/:id
+   PUT /students/:id
 
 🔹 Delete Student
-DELETE /students/:id
+   DELETE /students/:id
 
 📱 Flutter Setup
+
 1️⃣ Install dependencies
+
 flutter pub get
 
 2️⃣ Update API Base URL
@@ -182,4 +177,5 @@ UI enhancements
 👨‍💻 Author
 
 Ayush Raj
+
 B.Tech – NIT Rourkela
